@@ -1,0 +1,103 @@
+.navbar{
+    background: #292b2c;
+    opacity: 0.9;
+    border-bottom: 3px solid #008ed6;
+}
+
+body{
+    background: #333;
+    color: #fff;
+}
+
+#home-section{
+    background: url('../img/home.jpg') no-repeat  top left;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed
+}
+
+.inner-home{
+    background: rgba(0,0,0,0.7);
+    min-height: 700px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#home-section .fa{
+    background: #fff;
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+#home-section .card{
+    
+    background: #008ed6;
+    padding:10px 5px;
+    margin-top: 20px;
+    opacity: 0.8
+}
+
+#explore-body .fa{
+    background: #333;
+    color:#fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 2px
+}
+
+#create-head{
+    background: #008ed6;
+    color: #fff;
+    
+}
+
+#create-main .fa{
+    background: #fff;
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+#share-main .fa{
+    background: #008ed6;
+    color: #fff;;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    #home-section h1{
+        font-size: 45px;
+    }
+    #home-section p{
+        font-size: 17px;
+    }
+    #explore-body p{
+        font-size: 17px;
+    }
+    #create-main p{
+        font-size: 17px;
+    }
+    #hare-main p{
+        font-size: 17px;
+    }
+}
+
